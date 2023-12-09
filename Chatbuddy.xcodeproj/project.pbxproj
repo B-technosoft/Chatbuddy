@@ -14,6 +14,10 @@
 		56C1B9B82B24259F0061B4F4 /* ChatbuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B9B72B24259F0061B4F4 /* ChatbuddyTests.swift */; };
 		56C1B9C22B24259F0061B4F4 /* ChatbuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B9C12B24259F0061B4F4 /* ChatbuddyUITests.swift */; };
 		56C1B9C42B24259F0061B4F4 /* ChatbuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B9C32B24259F0061B4F4 /* ChatbuddyUITestsLaunchTests.swift */; };
+		56C1B9D92B243FEC0061B4F4 /* Spectral-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56C1B9D62B243FEC0061B4F4 /* Spectral-Bold.ttf */; };
+		56C1B9DA2B243FEC0061B4F4 /* Spectral-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56C1B9D72B243FEC0061B4F4 /* Spectral-Regular.ttf */; };
+		56C1B9DB2B243FEC0061B4F4 /* Spectral-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56C1B9D82B243FEC0061B4F4 /* Spectral-SemiBold.ttf */; };
+		56C1B9DE2B2441B30061B4F4 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B9DD2B2441B30061B4F4 /* Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,11 @@
 		56C1B9BD2B24259F0061B4F4 /* ChatbuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatbuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C1B9C12B24259F0061B4F4 /* ChatbuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbuddyUITests.swift; sourceTree = "<group>"; };
 		56C1B9C32B24259F0061B4F4 /* ChatbuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56C1B9D62B243FEC0061B4F4 /* Spectral-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spectral-Bold.ttf"; sourceTree = "<group>"; };
+		56C1B9D72B243FEC0061B4F4 /* Spectral-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spectral-Regular.ttf"; sourceTree = "<group>"; };
+		56C1B9D82B243FEC0061B4F4 /* Spectral-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spectral-SemiBold.ttf"; sourceTree = "<group>"; };
+		56C1B9DC2B24405C0061B4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		56C1B9DD2B2441B30061B4F4 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +104,7 @@
 		56C1B9A42B24259D0061B4F4 /* Chatbuddy */ = {
 			isa = PBXGroup;
 			children = (
+				56C1B9DC2B24405C0061B4F4 /* Info.plist */,
 				56C1B9A52B24259D0061B4F4 /* ChatbuddyApp.swift */,
 				56C1B9D02B242EBD0061B4F4 /* UI */,
 				56C1B9D12B242EC30061B4F4 /* ViewModels */,
@@ -166,6 +176,7 @@
 		56C1B9D42B242EFD0061B4F4 /* Components_Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				56C1B9DD2B2441B30061B4F4 /* Font.swift */,
 			);
 			path = Components_Helpers;
 			sourceTree = "<group>";
@@ -173,6 +184,9 @@
 		56C1B9D52B242F430061B4F4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				56C1B9D62B243FEC0061B4F4 /* Spectral-Bold.ttf */,
+				56C1B9D72B243FEC0061B4F4 /* Spectral-Regular.ttf */,
+				56C1B9D82B243FEC0061B4F4 /* Spectral-SemiBold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -281,6 +295,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C1B9DB2B243FEC0061B4F4 /* Spectral-SemiBold.ttf in Resources */,
+				56C1B9D92B243FEC0061B4F4 /* Spectral-Bold.ttf in Resources */,
+				56C1B9DA2B243FEC0061B4F4 /* Spectral-Regular.ttf in Resources */,
 				56C1B9AE2B24259F0061B4F4 /* Preview Assets.xcassets in Resources */,
 				56C1B9AA2B24259F0061B4F4 /* Assets.xcassets in Resources */,
 			);
@@ -309,6 +326,7 @@
 			files = (
 				56C1B9A82B24259D0061B4F4 /* ContentView.swift in Sources */,
 				56C1B9A62B24259D0061B4F4 /* ChatbuddyApp.swift in Sources */,
+				56C1B9DE2B2441B30061B4F4 /* Font.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +488,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Chatbuddy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chatbuddy/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -479,7 +498,6 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -506,6 +524,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Chatbuddy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chatbuddy/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -515,7 +534,6 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";

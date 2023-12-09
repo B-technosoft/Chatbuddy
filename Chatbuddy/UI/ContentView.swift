@@ -14,6 +14,7 @@ struct RootView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+                .font(Font.custom("Spectral-Bold", size: 30))
         }
         .padding()
     }

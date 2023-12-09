@@ -96,7 +96,12 @@
 			isa = PBXGroup;
 			children = (
 				56C1B9A52B24259D0061B4F4 /* ChatbuddyApp.swift */,
-				56C1B9A72B24259D0061B4F4 /* ContentView.swift */,
+				56C1B9D02B242EBD0061B4F4 /* UI */,
+				56C1B9D12B242EC30061B4F4 /* ViewModels */,
+				56C1B9D22B242ED20061B4F4 /* Models */,
+				56C1B9D32B242EE10061B4F4 /* DBServices */,
+				56C1B9D42B242EFD0061B4F4 /* Components_Helpers */,
+				56C1B9D52B242F430061B4F4 /* Fonts */,
 				56C1B9A92B24259F0061B4F4 /* Assets.xcassets */,
 				56C1B9AB2B24259F0061B4F4 /* Chatbuddy.entitlements */,
 				56C1B9AC2B24259F0061B4F4 /* Preview Content */,
@@ -127,6 +132,49 @@
 				56C1B9C32B24259F0061B4F4 /* ChatbuddyUITestsLaunchTests.swift */,
 			);
 			path = ChatbuddyUITests;
+			sourceTree = "<group>";
+		};
+		56C1B9D02B242EBD0061B4F4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				56C1B9A72B24259D0061B4F4 /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		56C1B9D12B242EC30061B4F4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		56C1B9D22B242ED20061B4F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56C1B9D32B242EE10061B4F4 /* DBServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DBServices;
+			sourceTree = "<group>";
+		};
+		56C1B9D42B242EFD0061B4F4 /* Components_Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components_Helpers;
+			sourceTree = "<group>";
+		};
+		56C1B9D52B242F430061B4F4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

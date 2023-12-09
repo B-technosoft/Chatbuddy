@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56C1B9A62B24259D0061B4F4 /* ChatbuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B9A52B24259D0061B4F4 /* ChatbuddyApp.swift */; };
-		56C1B9A82B24259D0061B4F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B9A72B24259D0061B4F4 /* ContentView.swift */; };
+		56C1B9A82B24259D0061B4F4 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B9A72B24259D0061B4F4 /* RootView.swift */; };
 		56C1B9AA2B24259F0061B4F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C1B9A92B24259F0061B4F4 /* Assets.xcassets */; };
 		56C1B9AE2B24259F0061B4F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C1B9AD2B24259F0061B4F4 /* Preview Assets.xcassets */; };
 		56C1B9B82B24259F0061B4F4 /* ChatbuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B9B72B24259F0061B4F4 /* ChatbuddyTests.swift */; };
@@ -18,6 +18,8 @@
 		56C1B9DA2B243FEC0061B4F4 /* Spectral-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56C1B9D72B243FEC0061B4F4 /* Spectral-Regular.ttf */; };
 		56C1B9DB2B243FEC0061B4F4 /* Spectral-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56C1B9D82B243FEC0061B4F4 /* Spectral-SemiBold.ttf */; };
 		56C1B9DE2B2441B30061B4F4 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B9DD2B2441B30061B4F4 /* Font.swift */; };
+		56C1B9E12B2444CB0061B4F4 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B9E02B2444CB0061B4F4 /* CustomTabBar.swift */; };
+		56C1B9E32B244D3E0061B4F4 /* TabButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B9E22B244D3E0061B4F4 /* TabButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 /* Begin PBXFileReference section */
 		56C1B9A22B24259D0061B4F4 /* Chatbuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatbuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C1B9A52B24259D0061B4F4 /* ChatbuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbuddyApp.swift; sourceTree = "<group>"; };
-		56C1B9A72B24259D0061B4F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56C1B9A72B24259D0061B4F4 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		56C1B9A92B24259F0061B4F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56C1B9AB2B24259F0061B4F4 /* Chatbuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chatbuddy.entitlements; sourceTree = "<group>"; };
 		56C1B9AD2B24259F0061B4F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		56C1B9D82B243FEC0061B4F4 /* Spectral-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spectral-SemiBold.ttf"; sourceTree = "<group>"; };
 		56C1B9DC2B24405C0061B4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		56C1B9DD2B2441B30061B4F4 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		56C1B9E02B2444CB0061B4F4 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		56C1B9E22B244D3E0061B4F4 /* TabButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +151,8 @@
 		56C1B9D02B242EBD0061B4F4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				56C1B9A72B24259D0061B4F4 /* ContentView.swift */,
+				56C1B9A72B24259D0061B4F4 /* RootView.swift */,
+				56C1B9DF2B2444B40061B4F4 /* CTab */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -189,6 +194,15 @@
 				56C1B9D82B243FEC0061B4F4 /* Spectral-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		56C1B9DF2B2444B40061B4F4 /* CTab */ = {
+			isa = PBXGroup;
+			children = (
+				56C1B9E02B2444CB0061B4F4 /* CustomTabBar.swift */,
+				56C1B9E22B244D3E0061B4F4 /* TabButtons.swift */,
+			);
+			path = CTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,7 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56C1B9A82B24259D0061B4F4 /* ContentView.swift in Sources */,
+				56C1B9E12B2444CB0061B4F4 /* CustomTabBar.swift in Sources */,
+				56C1B9A82B24259D0061B4F4 /* RootView.swift in Sources */,
+				56C1B9E32B244D3E0061B4F4 /* TabButtons.swift in Sources */,
 				56C1B9A62B24259D0061B4F4 /* ChatbuddyApp.swift in Sources */,
 				56C1B9DE2B2441B30061B4F4 /* Font.swift in Sources */,
 			);

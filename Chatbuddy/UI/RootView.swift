@@ -13,7 +13,8 @@ struct RootView: View {
     var body: some View {
         VStack {
             Text("Hello, world!")
-                .font(Font.custom("Spectral-Bold", size: 30))
+                .padding()
+                .font(Font.chatHeading)
             Spacer()
             CustomTabBar(selectedTab: $selectedTab)
         }

@@ -12,13 +12,13 @@ import SwiftUI
 extension Font {
     
     
-    public static var body: Font{
+    public static var bodyPeragraph: Font{
         return Font.custom("Spectral-Regular", size: 14)
     }
     public static var button: Font{
         return Font.custom("Spectral-SemiBold", size: 14)
     }
-    public static var caption: Font{
+    public static var smallText: Font{
         return Font.custom("Spectral-Regular", size: 10)
     }
     public static var tabBar: Font{
@@ -27,7 +27,7 @@ extension Font {
     public static var settings: Font{
         return Font.custom("Spectral-Regular", size: 16)
     }
-    public static var title: Font{
+    public static var titleText: Font{
         return Font.custom("Spectral-Bold", size: 20)
     }
     public static var pageTitle: Font{

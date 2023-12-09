@@ -8,12 +8,9 @@
 import SwiftUI
 
 struct RootView: View {
-    
     @State var selectedTab: Tabs = .contacts
     
-    
     var body: some View {
-        
         VStack {
             Text("Hello, world!")
                 .font(Font.custom("Spectral-Bold", size: 30))

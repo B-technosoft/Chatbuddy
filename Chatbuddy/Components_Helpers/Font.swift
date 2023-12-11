@@ -16,7 +16,7 @@ extension Font {
         return Font.custom("Spectral-Regular", size: 14)
     }
     public static var button: Font{
-        return Font.custom("Spectral-SemiBold", size: 14)
+        return Font.custom("Spectral-SemiBold", size: 15)
     }
     public static var smallText: Font{
         return Font.custom("Spectral-Regular", size: 10)
@@ -28,7 +28,7 @@ extension Font {
         return Font.custom("Spectral-Regular", size: 16)
     }
     public static var titleText: Font{
-        return Font.custom("Spectral-Bold", size: 20)
+        return Font.custom("Spectral-Bold", size: 30)
     }
     public static var pageTitle: Font{
         return Font.custom("Spectral-SemiBold", size: 30)

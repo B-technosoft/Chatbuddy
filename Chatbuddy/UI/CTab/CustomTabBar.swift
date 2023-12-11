@@ -60,5 +60,5 @@ struct CustomTabBar: View {
 }
 
 #Preview {
-    CustomTabBar(selectedTab: .constant(.contacts))
+    CustomTabBar(selectedTab: .constant(.chats))
 }

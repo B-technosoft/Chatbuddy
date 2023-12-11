@@ -33,6 +33,14 @@
 		56C1B9FC2B2453820061B4F4 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 56C1B9FB2B2453820061B4F4 /* FirebaseStorageCombine-Community */; };
 		56C1B9FE2B2459B90061B4F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C1B9FD2B2459B90061B4F4 /* GoogleService-Info.plist */; };
 		56C1BA002B245DEA0061B4F4 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B9FF2B245DEA0061B4F4 /* AuthViewModel.swift */; };
+		56C1BA032B2479360061B4F4 /* OnBordingScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1BA022B2479360061B4F4 /* OnBordingScreens.swift */; };
+		56C1BA052B247C170061B4F4 /* WelComeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1BA042B247C170061B4F4 /* WelComeScreen.swift */; };
+		56C1BA072B247C2A0061B4F4 /* PhoneNumberScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1BA062B247C2A0061B4F4 /* PhoneNumberScreen.swift */; };
+		56C1BA092B247C4E0061B4F4 /* VerificationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1BA082B247C4E0061B4F4 /* VerificationScreen.swift */; };
+		56C1BA0B2B247C600061B4F4 /* CreateProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1BA0A2B247C600061B4F4 /* CreateProfileScreen.swift */; };
+		56C1BA0D2B247C720061B4F4 /* SyncContactScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1BA0C2B247C720061B4F4 /* SyncContactScreen.swift */; };
+		56C1BA0F2B2498F30061B4F4 /* OnBordingButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1BA0E2B2498F30061B4F4 /* OnBordingButtonStyle.swift */; };
+		56C1BA112B24E1350061B4F4 /* CreateProfileTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C1BA102B24E1350061B4F4 /* CreateProfileTF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +82,14 @@
 		56C1B9E72B2452DE0061B4F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56C1B9FD2B2459B90061B4F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		56C1B9FF2B245DEA0061B4F4 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		56C1BA022B2479360061B4F4 /* OnBordingScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBordingScreens.swift; sourceTree = "<group>"; };
+		56C1BA042B247C170061B4F4 /* WelComeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelComeScreen.swift; sourceTree = "<group>"; };
+		56C1BA062B247C2A0061B4F4 /* PhoneNumberScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberScreen.swift; sourceTree = "<group>"; };
+		56C1BA082B247C4E0061B4F4 /* VerificationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationScreen.swift; sourceTree = "<group>"; };
+		56C1BA0A2B247C600061B4F4 /* CreateProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileScreen.swift; sourceTree = "<group>"; };
+		56C1BA0C2B247C720061B4F4 /* SyncContactScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncContactScreen.swift; sourceTree = "<group>"; };
+		56C1BA0E2B2498F30061B4F4 /* OnBordingButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBordingButtonStyle.swift; sourceTree = "<group>"; };
+		56C1BA102B24E1350061B4F4 /* CreateProfileTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileTF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				56C1B9A72B24259D0061B4F4 /* RootView.swift */,
+				56C1BA012B2479140061B4F4 /* Onbording  */,
 				56C1B9DF2B2444B40061B4F4 /* CTab */,
 			);
 			path = UI;
@@ -211,6 +228,8 @@
 			isa = PBXGroup;
 			children = (
 				56C1B9DD2B2441B30061B4F4 /* Font.swift */,
+				56C1BA0E2B2498F30061B4F4 /* OnBordingButtonStyle.swift */,
+				56C1BA102B24E1350061B4F4 /* CreateProfileTF.swift */,
 			);
 			path = Components_Helpers;
 			sourceTree = "<group>";
@@ -232,6 +251,19 @@
 				56C1B9E22B244D3E0061B4F4 /* TabButtons.swift */,
 			);
 			path = CTab;
+			sourceTree = "<group>";
+		};
+		56C1BA012B2479140061B4F4 /* Onbording  */ = {
+			isa = PBXGroup;
+			children = (
+				56C1BA022B2479360061B4F4 /* OnBordingScreens.swift */,
+				56C1BA042B247C170061B4F4 /* WelComeScreen.swift */,
+				56C1BA062B247C2A0061B4F4 /* PhoneNumberScreen.swift */,
+				56C1BA082B247C4E0061B4F4 /* VerificationScreen.swift */,
+				56C1BA0A2B247C600061B4F4 /* CreateProfileScreen.swift */,
+				56C1BA0C2B247C720061B4F4 /* SyncContactScreen.swift */,
+			);
+			path = "Onbording ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,12 +415,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C1BA0D2B247C720061B4F4 /* SyncContactScreen.swift in Sources */,
 				56C1B9E82B2452DE0061B4F4 /* AppDelegate.swift in Sources */,
 				56C1B9E12B2444CB0061B4F4 /* CustomTabBar.swift in Sources */,
+				56C1BA092B247C4E0061B4F4 /* VerificationScreen.swift in Sources */,
+				56C1BA112B24E1350061B4F4 /* CreateProfileTF.swift in Sources */,
 				56C1B9A82B24259D0061B4F4 /* RootView.swift in Sources */,
+				56C1BA072B247C2A0061B4F4 /* PhoneNumberScreen.swift in Sources */,
+				56C1BA0B2B247C600061B4F4 /* CreateProfileScreen.swift in Sources */,
 				56C1B9E32B244D3E0061B4F4 /* TabButtons.swift in Sources */,
+				56C1BA0F2B2498F30061B4F4 /* OnBordingButtonStyle.swift in Sources */,
 				56C1B9A62B24259D0061B4F4 /* ChatbuddyApp.swift in Sources */,
 				56C1BA002B245DEA0061B4F4 /* AuthViewModel.swift in Sources */,
+				56C1BA032B2479360061B4F4 /* OnBordingScreens.swift in Sources */,
+				56C1BA052B247C170061B4F4 /* WelComeScreen.swift in Sources */,
 				56C1B9DE2B2441B30061B4F4 /* Font.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

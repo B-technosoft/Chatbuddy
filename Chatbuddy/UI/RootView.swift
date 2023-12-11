@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct RootView: View {
-    @State var selectedTab: Tabs = .contacts
+    @State var selectedTab: Tabs = .chats
+    @State var isOnbording = !AuthViewModel.isUserLoggedIn()
     
     var body: some View {
         VStack {
@@ -18,7 +19,9 @@ struct RootView: View {
             Spacer()
             CustomTabBar(selectedTab: $selectedTab)
         }
-        .padding()
+        .fullScreenCover(isPresented: $isOnbording, content: {
+            OnBordingScreens(isOnbording: $isOnbording)
+        })
     }
 }
 
